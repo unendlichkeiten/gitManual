@@ -45,6 +45,10 @@ Initialized empty Git repository in /e/hamming/test/.git/
 git branch newBranch
 # 切换分支
 git checkout branchName
+# 更新远程仓库信息
+git fetch origin
+# 拉取远程分支并创建新的分支
+git checkout -b newBranch remote/branch
 # 创建并切换到当前分支
 git checkout -b newBranch
 # 分支重命名(M:即使分支名称已存在)
